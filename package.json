@@ -1,0 +1,24 @@
+{
+  "name": "vijay-jobgenie",
+  "version": "1.0.0",
+  "description": "JobGenie is your intelligent, all-in-one career assistant designed to empower students, job seekers, and professionals to navigate their career journeys with confidence. Whether you're building your first resume, tailoring your profile to a specific job, or crafting the perfect cover letter — JobGenie has your back, powered by cutting-edge AI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalviumcommunity/Vijay-Jobgenie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalviumcommunity/Vijay-Jobgenie/issues"
+  },
+  "homepage": "https://github.com/kalviumcommunity/Vijay-Jobgenie#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.2.1"
+  }
+}
