@@ -1,8 +1,15 @@
 const genAI = require("../config/gemini");
 
 async function generateResume(userPrompt) {
-  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+  const model = genAI.getGenerativeModel({
+    model: "gemini-1.5-flash",
+    generationConfig: {
+      
+      topP: 0.9
+    },
+  });
 
+  // System Prompt
   const systemPrompt = `
 You are JobGenie, an AI-powered professional resume writer.
 Your goal: Convert the given user details into a well-structured, ATS-friendly resume in JSON format.
