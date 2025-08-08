@@ -5,7 +5,8 @@ async function generateResume(userPrompt) {
     model: "gemini-1.5-flash",
     generationConfig: {
       
-      topP: 0.9
+      topP: 0.9,
+      topK: 40,
     },
   });
 
